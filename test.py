@@ -22,7 +22,7 @@ from utils.core import *
 
 parser = argparse.ArgumentParser(description='STDN Evaluation')
 parser.add_argument(
-    '-c', '--config', default='configs/stdn300_densenet169.py', type=str)
+    '-c', '--config', default='configs/DSOD300-64-192-48-1.py', type=str)
 parser.add_argument('-d', '--dataset', default='COCO',
                     help='VOC or COCO version')
 parser.add_argument('-m', '--trained_model', default=None,
